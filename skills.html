@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills | Rekha Devi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-size:14px; line-height:1.1; color:var(--text);">Rekha Devi</div>
+          <div style="font-size:12px; color:var(--muted); font-weight:800;">Frontend Developer</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="padding-bottom:10px;">
+      <div class="panel" style="padding:18px;">
+        <div class="section-head" style="margin-bottom:10px;">
+          <div>
+            <h2 style="font-size:28px; margin:0;">Skills</h2>
+            <p>Tech stack I use to build modern UIs</p>
+          </div>
+          <a class="btn" href="project.html">Projects</a>
+        </div>
+        <p style="margin:0; color:var(--muted); font-weight:700; line-height:1.7;">
+          Strong basics + clean UI implementation.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px;">
+      <div class="panel" style="padding:18px;">
+        <div class="grid-2">
+          <div>
+            <div style="font-weight:1000; margin-bottom:10px;">Frontend</div>
+            <div class="skill"><span class="name">HTML</span><span class="level">Advanced</span></div>
+            <div class="skill"><span class="name">CSS</span><span class="level">Advanced</span></div>
+            <div class="skill"><span class="name">JavaScript</span><span class="level">Intermediate</span></div>
+            <div class="skill"><span class="name">Responsive Design</span><span class="level">Advanced</span></div>
+          </div>
+          <div>
+            <div style="font-weight:1000; margin-bottom:10px;">React & UI</div>
+            <div class="skill"><span class="name">React</span><span class="level">Intermediate</span></div>
+            <div class="skill"><span class="name">UI Components</span><span class="level">Advanced</span></div>
+            <div class="skill"><span class="name">State & Forms</span><span class="level">Intermediate</span></div>
+            <div class="skill"><span class="name">Performance</span><span class="level">Good</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:12px;">
+      <div class="panel" style="padding:18px; display:flex; justify-content:space-between; gap:16px; align-items:center; flex-wrap:wrap;">
+        <div>
+          <div style="font-weight:1000; font-size:18px;">Let’s build something impressive.</div>
+          <div style="color:var(--muted); font-weight:800; margin-top:6px;">Get in touch for freelance or internship.</div>
+        </div>
+        <div class="send-row">
+          <a class="btn btn-primary" href="contact.html">Contact</a>
+          <a class="btn" href="index.html">Back to Home</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Rekha Devi. Skills.</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

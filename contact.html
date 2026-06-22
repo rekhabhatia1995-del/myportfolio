@@ -1,0 +1,100 @@
+<
+!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Rekha Devi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-size:14px; line-height:1.1; color:var(--text);">Rekha Devi</div>
+          <div style="font-size:12px; color:var(--muted); font-weight:800;">Frontend Developer</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="padding-bottom:10px;">
+      <div class="panel" style="padding:18px;">
+        <div class="section-head" style="margin-bottom:10px;">
+          <div>
+            <h2 style="font-size:28px; margin:0;">Contact</h2>
+            <p>Let’s connect and build</p>
+          </div>
+          <a class="btn" href="project.html">My Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px;">
+      <div class="contact-wrap">
+        <div class="panel contact-card">
+          <div style="font-weight:1000; font-size:18px;">Direct</div>
+<p class="form-note" style="margin-top:10px;">
+            Email:
+            <a href="mailto:rekhabhatia1995@gmail.com" style="font-weight:1000; color:var(--text); border-bottom:1px dashed rgba(255,255,255,.25);">rekhabhatia1995@gmail.com</a>
+          </p>
+
+          <p class="form-note" style="margin-top:10px;">
+            WhatsApp:
+            <a href="https://wa.me/8219982909" target="_blank" rel="noreferrer" style="font-weight:1000; color:var(--text); border-bottom:1px dashed rgba(255,255,255,.25);">+91 82199 82909</a>
+          </p>
+          <p class="form-note" style="margin-top:10px;">
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/rekha-devi-a012b23aa" target="_blank" rel="noreferrer" style="font-weight:1000; color:var(--text); border-bottom:1px dashed rgba(255,255,255,.25);">
+              www.linkedin.com/in/rekha-devi-a012b23aa
+            </a>
+          </p>
+
+          <div style="margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;">
+<a class="btn btn-primary" href="mailto:rekhabhatia1995@gmail.com">Email Me</a>
+            <a class="btn" href="https://www.linkedin.com/in/rekha-devi-a012b23aa" target="_blank" rel="noreferrer">Open LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="panel contact-card">
+          <div style="font-weight:1000; font-size:18px;">Quick Message</div>
+          <p class="form-note" style="margin-top:10px;">This is a UI-only form. You can connect it to backend later.</p>
+
+          <div style="margin-top:14px;">
+            <div class="row">
+              <input class="input" placeholder="Your Name" />
+              <input class="input" placeholder="Your Email" />
+            </div>
+            <div style="height:12px"></div>
+            <input class="input" placeholder="Subject" style="margin-bottom:12px" />
+            <textarea class="input" placeholder="Write your message..." ></textarea>
+
+            <div class="send-row">
+              <button class="btn btn-primary" type="button" onclick="alert('Thanks! UI form demo only. Connect backend later.')">Send Message</button>
+              <div class="small">(Demo) No data is sent.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Rekha Devi. Contact.</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

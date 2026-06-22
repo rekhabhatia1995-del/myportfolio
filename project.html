@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Rekha Devi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="font-size:14px; line-height:1.1; color:var(--text);">Rekha Devi</div>
+          <div style="font-size:12px; color:var(--muted); font-weight:800;">Frontend Developer</div>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" style="padding-bottom:10px;">
+      <div class="panel" style="padding:18px;">
+        <div class="section-head" style="margin-bottom:10px;">
+          <div>
+            <h2 style="font-size:28px; margin:0;">Projects</h2>
+            <p>Live demos + strong UI design</p>
+          </div>
+          <a class="btn" href="contact.html">Hire Me</a>
+        </div>
+        <p style="margin:0; color:var(--muted); font-weight:700; line-height:1.7;">
+          Each project is designed with clean structure, responsive cards, and modern visual hierarchy.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:18px;">
+      <div class="grid-3">
+        <article class="card">
+          <div class="title">
+            <h3>React Git</h3>
+            <span class="tag">React</span>
+          </div>
+          <p>
+            UI focused project with smooth layout and modern components.
+          </p>
+          <a href="https://reactgit-theta.vercel.app/" target="_blank" rel="noreferrer">Open Demo →</a>
+        </article>
+
+        <article class="card">
+          <div class="title">
+            <h3>Unified Project</h3>
+            <span class="tag">Web App</span>
+          </div>
+          <p>
+            Consistent design language across pages for a premium feel.
+          </p>
+          <a href="https://unifiedproject.vercel.app/" target="_blank" rel="noreferrer">Open Demo →</a>
+        </article>
+
+        <article class="card">
+          <div class="title">
+            <h3>Healthcare Project</h3>
+            <span class="tag">Healthcare</span>
+          </div>
+          <p>
+            Calm and trustworthy UI with responsive sections.
+          </p>
+          <a href="https://healthcareproject1-liard.vercel.app/" target="_blank" rel="noreferrer">Open Demo →</a>
+        </article>
+
+        <article class="card">
+          <div class="title">
+            <h3>Kakkar Enterprises</h3>
+            <span class="tag">Business</span>
+          </div>
+          <p>
+            Professional landing experience with strong typography and spacing.
+          </p>
+          <a href="https://kakkarenterprises.vercel.app/" target="_blank" rel="noreferrer">Open Demo →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:12px;">
+      <div class="panel" style="padding:18px;">
+        <div class="section-head">
+          <div>
+            <h2 style="margin:0;">Want to add more projects?</h2>
+            <p>It’s easy—just add one more card.</p>
+          </div>
+          <a class="btn btn-primary" href="skills.html">See Skills</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> Rekha Devi. Projects.</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
